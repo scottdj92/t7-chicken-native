@@ -45,6 +45,7 @@ class LoadingScreen extends Component {
           animationType={"fade"}
           transparent={false}
           visible={this.state.loading}
+          onRequestClose={() => {}}
         >
           <View style={style.container}>
             <LoadingIcon />
